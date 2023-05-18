@@ -1,0 +1,11 @@
+.games_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image {
+  width: 800px;
+}
+.loading {
+  width: 500px;
+}

@@ -1,0 +1,19 @@
+.container_about {
+  margin-top: 40px;
+  font-family: "Press Start 2P";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_about h1 {
+  font-size: xxlarge;
+  font-weight: bold;
+  color: black;
+  font-family: "Press Start 2P";
+}
+.container_about h2 {
+  font-size: medium;
+  color: black;
+  font-family: "Press Start 2P";
+}

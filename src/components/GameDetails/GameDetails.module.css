@@ -1,0 +1,78 @@
+.container_detail {
+  background-image: url("../../imagen/detallesJuegos.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.details_div {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  z-index: 1;
+  margin: 10px;
+  background-color: orangered;
+  opacity: 0.9;
+}
+
+.details_div p {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.div_img {
+  display: flex;
+  justify-content: center;
+}
+
+.details_div img {
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  color: black;
+}
+
+.div_descr {
+  margin: 20px;
+}
+
+.div-descr p {
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion {
+  text-align: justify;
+}
+
+.div_descr button {
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  font-family: "Press Start 2P";
+  position: relative;
+  left: 46%;
+  border-radius: 20px;
+  background-color: green;
+}
+
+.div_descr button:hover {
+  background-color: black;
+  color: green;
+  cursor: pointer;
+}
