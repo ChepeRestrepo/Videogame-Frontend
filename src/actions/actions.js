@@ -22,18 +22,7 @@ const getAllGames = () => {
   };
 };
 
-function deleteDb(payload) {
-  return async function (dispatch) {
-    return axios
-      .delete(`/videogame/${payload}`)
-      .then((res) => {
-        dispatch({
-          type: GET_VIDEOGAME_DETAIL,
-          payload: res.data,
-        });
-      });
-  };
-}
+
 // Obtiene todos los juegos encontrados por nombres
 const searchByName = (name) => {
   return function (dispatch) {
@@ -93,5 +82,5 @@ export {
   getGenres,
   orderBy,
   filterBy,
-  deleteDb,
+  
 };

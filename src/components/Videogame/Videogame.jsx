@@ -2,21 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Videogame.module.css";
 import imagen from "../../imagen/juegoCreado.jpeg";
-import { deleteDb, getAllGames } from "../../actions/actions";
+import { getAllGames } from "../../actions/actions";
 import { useDispatch } from "react-redux";
-import ButtonDelete from "../ButtonDelete/buttonDelete";
+
 
 const Videogame = (props) => {
   const dispatch = useDispatch();
 
   function handleClick() {
-    dispatch(deleteDb(props.id));
+    
     dispatch(getAllGames());
     return alert("Se elimino correctamente");
   }
   return (
     <div className={styles.container_game}>
-      <ButtonDelete id={handleClick} />
+      
       <div className={styles.title_game}>{props.name}</div>
       <div className={styles.game_div}>
         <button>

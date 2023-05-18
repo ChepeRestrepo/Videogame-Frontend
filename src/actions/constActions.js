@@ -4,7 +4,7 @@ const GET_VIDEOGAME_DETAIL = "GET_VIDEOGAME_DETAIL";
 const GET_GENRES = "GET_GENRES";
 const ORDER_BY = "ORDER_BY";
 const FILTER_BY = "FILTER_BY";
-const DELETE_GAME = "DELETE_GAME";
+
 
 export {
   GET_ALL_GAMES,
@@ -13,5 +13,5 @@ export {
   GET_GENRES,
   ORDER_BY,
   FILTER_BY,
-  DELETE_GAME,
+  
 };

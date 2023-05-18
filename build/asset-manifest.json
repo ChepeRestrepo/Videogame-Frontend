@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba79f4a8.css",
+    "main.js": "/static/js/main.fce8b02a.js",
+    "static/media/videogame.png": "/static/media/videogame.6a3ef65f242b22b898a1.png",
+    "static/media/Loading.gif": "/static/media/Loading.7d9c61a3731bff683646.gif",
+    "static/media/crearGame.jpg": "/static/media/crearGame.37d4a8bf57c932bfce66.jpg",
+    "index.html": "/index.html",
+    "main.ba79f4a8.css.map": "/static/css/main.ba79f4a8.css.map",
+    "main.fce8b02a.js.map": "/static/js/main.fce8b02a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba79f4a8.css",
+    "static/js/main.fce8b02a.js"
+  ]
+}
