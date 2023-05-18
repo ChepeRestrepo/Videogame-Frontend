@@ -104,9 +104,7 @@ const CreateGame = (props) => {
     if (Object.values(errors).length || checkboxsErrors.length) {
       return alert(Object.values(errors).concat(checkboxsErrors).join("\n"));
     }
-    axios
-      .post("http://localhost:3002/videogame", form)
-      .then((res) => console.log(res.data));
+    axios.post("/videogame", form).then((res) => console.log(res.data));
     alert(`${form.name} Creado correctamente`);
     props.history.push("/videogames");
     console.log(form);
